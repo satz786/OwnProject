@@ -1,0 +1,11 @@
+projectspecification\BaseClass.class
+testcases\TC_003_CreateLead_with_valid_data.class
+utilsPack\PropertyClass.class
+pages\Welcomepage.class
+pages\Homepage.class
+pages\LoginPage.class
+testcases\TC_002_LoginWithInvalidData.class
+pages\CreateLeadPage.class
+testcases\TC_001_LoginWithValidData.class
+pages\ViewLeadPage.class
+utilsPack\Readexcel.class

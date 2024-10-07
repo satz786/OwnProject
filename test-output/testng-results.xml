@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T20:45:04 IST" name="Default suite" finished-at="2024-07-20T20:45:23 IST" duration-ms="18983">
+    <groups>
+    </groups>
+    <test started-at="2024-07-20T20:45:04 IST" name="Default test" finished-at="2024-07-20T20:45:23 IST" duration-ms="18983">
+      <class name="testcases.TC_003_CreateLead_with_valid_data">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:03 IST" name="startReporter" finished-at="2024-07-20T20:45:04 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setdata()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:04 IST" name="setdata" finished-at="2024-07-20T20:45:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:04 IST" name="testDetails" finished-at="2024-07-20T20:45:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="StartApp()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:04 IST" name="StartApp" finished-at="2024-07-20T20:45:11 IST" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartApp -->
+        <test-method signature="CreateLead_with_ValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:11 IST" name="CreateLead_with_ValidData" data-provider="createlead_with_validData" finished-at="2024-07-20T20:45:22 IST" duration-ms="11209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manoj Steels]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead_with_ValidData -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:22 IST" name="postCondition" finished-at="2024-07-20T20:45:23 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.TC_003_CreateLead_with_valid_data@18078bef]" started-at="2024-07-20T20:45:23 IST" name="endReport" finished-at="2024-07-20T20:45:24 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC_003_CreateLead_with_valid_data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
