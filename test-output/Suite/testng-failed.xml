@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC_001_LoginWithValidData">
+        <methods>
+          <include name="setdata"/>
+          <include name="StartApp"/>
+          <include name="setupReport"/>
+          <include name="getvalue"/>
+          <include name="TearDownScript"/>
+          <include name="closebrowser"/>
+          <include name="loginwithvaliddata"/>
+        </methods>
+      </class> <!-- testcases.TC_001_LoginWithValidData -->
+      <class name="testcases.TC_002_LoginWithInvalidData">
+        <methods>
+          <include name="setupReport"/>
+          <include name="StartApp"/>
+          <include name="login_with_invalid_data"/>
+          <include name="getvalue"/>
+          <include name="TearDownScript"/>
+          <include name="closebrowser"/>
+          <include name="setdata"/>
+        </methods>
+      </class> <!-- testcases.TC_002_LoginWithInvalidData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
